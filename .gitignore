@@ -1,0 +1,36 @@
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore compiled files
+*.class
+*.o
+*.out
+*.exe
+*.dll
+*.so
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Ignore environment files
+.env
+.venv/
+node_modules/
+
+# Bytecode files
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+venv/
+.env
+*.venv
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
